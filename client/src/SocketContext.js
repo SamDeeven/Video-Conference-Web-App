@@ -7,7 +7,7 @@ const SocketContext  = createContext();
 
 
 // passing server url
-const socket = io('http://localhost:5000');
+const socket = io('https://deeven-videocall-webapp.herokuapp.com/');
 
 // getting children from props
 const ContextProvider = ({children}) =>{
